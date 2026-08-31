@@ -1,16 +1,16 @@
 public class LeaoMarinho
 {
-    private string nome;
+    private string? nome;
 
     private int idade;
 
-    private string especie;
+    private string? especie;
 
     private double altura;
 
     private double peso;
 
-    public string Nome
+    public string? Nome
     {
         get { return nome;}
         set { nome = value;}
@@ -27,7 +27,7 @@ public class LeaoMarinho
         }
     }
 
-    public string Especie
+    public string? Especie
     {
         get { return especie; }
         set { especie = value; }

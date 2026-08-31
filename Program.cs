@@ -2,7 +2,9 @@
 LeaoMarinho leao2 = new LeaoMarinho("Zé pequno", 12, "Chileno", 1.80, 110);
 
 
-leao1.Idade = 20;
+leao1.Idade = 6767;
+
+leao2.Nome = "Dubisgut genu";
 
 
 Console.WriteLine(leao1);
