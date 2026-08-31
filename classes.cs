@@ -1,19 +1,47 @@
-public class LeãoMarinho
+public class LeaoMarinho
 {
-    public string? nome;
+    private string nome;
 
-    public int idade;
+    private int idade;
 
-    public string raça;
+    private string especie;
 
-    public double altura;
+    private double altura;
 
-    public double peso;
+    private double peso;
+
+    public string Nome
+    {
+        get { return nome;}
+        set { nome = value;}
+    }
+
+    public int Idade
+    {
+        get {return idade;}
+        set 
+        { 
+            if (value >=0)
+                idade = value;
+
+        
+        }
+    }
+
+    public string Especie
+    {
+        get { return especie; }
+        set { especie = value; }
+    }
 
 
     public void exibirinfo()
     {
-        C
+        Console.WriteLine($"Leão marinho: {nome}");
+        Console.WriteLine($"Espécie: {especie}");
+        Console.WriteLine($"Idade: {idade}");
+        Console.WriteLine($"Altura: {altura}");
+        Console.WriteLine($"Peso: {peso}");
     }
 }
 
