@@ -34,6 +34,27 @@ public class LeaoMarinho
         set { especie = value; }
     }
 
+        public double Altura
+    {
+        get { return altura; }
+        set
+        {
+            if (value > 0)
+                altura = value;
+        }
+    }
+
+    public double Peso
+    {
+        get { return peso; }
+        set
+        {
+            if (value > 0)
+                peso = value;
+        }
+    }
+
+
 
     public void exibirinfo()
     {
