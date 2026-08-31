@@ -1,4 +1,4 @@
-public class Foca
+public class PeixeBoi
 {
     private string? nome;
 
@@ -53,7 +53,7 @@ public class Foca
         }
     }
 
-    public Foca(string nome, int idade, string especie, double altura, double peso)
+    public PeixeBoi(string nome, int idade, string especie, double altura, double peso)
     {
         Nome = nome;
         Idade = idade;
@@ -66,7 +66,7 @@ public class Foca
 
     public override string ToString()
     {
-        return $"Foca: {Nome} | Espécie: {Especie} | Idade: {Idade} anos | Altura: {Altura} m | Peso: {Peso} kg";
+        return $"Peixe Boi: {Nome} | Espécie: {Especie} | Idade: {Idade} anos | Altura: {Altura} m | Peso: {Peso} kg";
     }
 
 }
