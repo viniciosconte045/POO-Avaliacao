@@ -1,0 +1,5 @@
+C:\Users\vinicios61522996\Documents\GitHub\POO-Avaliacao\obj\Debug\net10.0\POO-Avaliacao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vinicios61522996\Documents\GitHub\POO-Avaliacao\obj\Debug\net10.0\POO-Avaliacao.AssemblyInfoInputs.cache
+C:\Users\vinicios61522996\Documents\GitHub\POO-Avaliacao\obj\Debug\net10.0\POO-Avaliacao.AssemblyInfo.cs
+C:\Users\vinicios61522996\Documents\GitHub\POO-Avaliacao\obj\Debug\net10.0\POO-Avaliacao.csproj.CoreCompileInputs.cache
+C:\Users\vinicios61522996\Documents\GitHub\POO-Avaliacao\obj\Debug\net10.0\POO-Avaliacao.sourcelink.json

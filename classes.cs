@@ -24,7 +24,6 @@ public class LeaoMarinho
             if (value >=0)
                 idade = value;
 
-        
         }
     }
 
@@ -53,6 +52,23 @@ public class LeaoMarinho
                 peso = value;
         }
     }
+
+    public LeaoMarinho(string nome, int idade, string especie, double altura, double peso)
+    {
+        Nome = nome;
+        Idade = idade;
+        Especie = especie;
+        Altura = altura;
+        Peso = peso;
+    }
+
+
+
+    public override string ToString()
+    {
+        return $"Leão-marinho: {Nome} | Espécie: {Especie} | Idade: {Idade} anos | Altura: {Altura} m | Peso: {Peso} kg";
+    }
+
 
 
 
