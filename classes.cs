@@ -69,16 +69,5 @@ public class LeaoMarinho
         return $"Leão-marinho: {Nome} | Espécie: {Especie} | Idade: {Idade} anos | Altura: {Altura} m | Peso: {Peso} kg";
     }
 
-
-
-
-    public void exibirinfo()
-    {
-        Console.WriteLine($"Leão marinho: {nome}");
-        Console.WriteLine($"Espécie: {especie}");
-        Console.WriteLine($"Idade: {idade}");
-        Console.WriteLine($"Altura: {altura}");
-        Console.WriteLine($"Peso: {peso}");
-    }
 }
 
